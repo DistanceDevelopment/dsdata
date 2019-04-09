@@ -1,4 +1,44 @@
 Acknowledgements
 ================
 
+- Ducknest_exercise
+    - line transect data simulated to reproduce Figure 2 presented in 
+    - Anderson, D. R., and R. S. Pospahala. 1970. Correction of bias in belt transect studies of immotile objects. The Journal of Wildlife Management 34 (1): 141–146. https://doi.org/10.2307/3799501
+	
+- Exercise3
+    - simulated line transect data (truth 79.8 per sq km)
+- capercaillie
+- Systematic_variance_2
+    - simulated data served as basis for paper:
+	- Fewster, R. M., J. L. Laake, and S. T. Buckland. 2005. Line transect sampling in small and large regions. Biometrics 61 (3): 856–859. https://doi.org/10.1111/j.1541-0420.2005.00413_1.x.
+- PTExercise1
+    - simulated point transect data (truth 79.6 per ha)
+- Wren point transect data sets
+    - all from 
+	- Buckland, S. T. 2006. Point-transect surveys for songbirds: robust methodologies. The Auk 123 (2): 345–357. https://doi.org/10.1642/0004-8038(2006)123[345:PSFSRM]2.0.CO;2.
+	- Wren1 5-minute point count
+	- Wren2 snapshot method
+	- Wren3 cue count
+	- Wren4 line transect data
+- Savannah_sparrow_1980
+    - Savannah_sparrow_1981
+	- Point transect data as described in
+	- Knopf, F. L., J. A. Sedgwick, and R. W. Cannon. 1988. Guild structure of a riparian avifauna relative to seasonal cattle grazing. The Journal of Wildlife Management 52 (2): 280–290. https://doi.org/10.2307/3801235.
+- Stratify_exercise
+    - Cluster_exercise
+	    - Both data sets are identical and simulated data; equivalent to the `minke` data set that ships with `Distance`
+- CovarWhaleSim
+    - Data set simulated by Rexstad in 2004 using WiSP
+- Dolphin
+- GolfteesExercise
+- CrabbieMCDSExercise
+    - aerial survey data of crabeater seals.  Originally double observer data; these data have been collapsed into single observer data
+	- Borchers, D. L., J. L. Laake, C. Southwell, and C. G. M. Paxton. 2006. Accommodating unmodeled heterogeneity in double-observer distance sampling surveys. Biometrics 62 (2): 372–378. https://doi.org/10.1111/j.1541-0420.2005.00493.x.
+- fTAMAUK07
+    - Hawaiian amakihi dataset used in 2007 Auk paper
+	- Marques, T. A., L. Thomas, S. G. Fancy, and S. T. Buckland. 2007. Improving estimates of bird density using multiple-covariate distance sampling. The Auk 124 (4): 1229–1243. https://doi.org/10.1642/0004-8038(2007)124[1229:IEOBDU]2.0.CO;2.
+- Deer_pellets
+    - Sika deer pellet data from southern Scotland, described in
+	- Marques, F. F. C., S. T. Buckland, D. Goffin, C. E. Dixon, D. L. Borchers, B. A. Mayle, and A. J. Peace. 2001. Estimating deer abundance from line transect surveys of dung: sika deer in southern Scotland. Journal of Applied Ecology 38 (2): 349–363. https://doi.org/10.1046/j.1365-2664.2001.00584.x.
+- CueCountingExample
 

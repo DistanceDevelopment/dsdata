@@ -5,7 +5,7 @@ File                        | Data | Acknowledgement | Man page
 `Cluster exercise.zip`      |      |                 |          
 `CovarWhaleSim.zip`         |      |                 |          
 `CrabbieMCDSExercise.zip`   |      |                 |          
-`CueCountingExample.zip`    |      |                 |          
+`CueCountingExample.zip`    |  ☑️   |                 |          
 `Deer pellets.zip`          |      |                 |          
 `Dolphin.zip`               |      |                 |          
 `Ducknest exercise.zip`     |      |                 |          

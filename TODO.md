@@ -8,7 +8,7 @@ File                        | Data | Acknowledgement | Man page
 `CueCountingExample.zip`    |  ☑️   |                 |          
 `Deer pellets.zip`          |      |                 |          
 `Dolphin.zip`               |      |                 |          
-`Ducknest exercise.zip`     |      |                 |          
+`Ducknest exercise.zip`     |   ☑️  |        ☑️        |     ☑️
 `Exercise3.zip`             |      |                 |          
 `GolfteesExercise.zip`      |      |                 |          
 `PTExercise1.zip`           |      |                 |          

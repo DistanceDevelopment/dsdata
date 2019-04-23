@@ -12,4 +12,4 @@ obs.table <- dat_list$obs.table
 sample.table <- dat_list$sample.table
 region.table <- dat_list$region.table
 
-save(convert.units, data, obs.table, sample.table, region.table, file="../Rdata/ducknest.RData")
+save(convert.units, data, obs.table, sample.table, region.table, file="../../data/ducknest.RData")

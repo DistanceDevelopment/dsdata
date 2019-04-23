@@ -12,6 +12,6 @@ capercaillie$size <- 1
 capercaillie$detected <- 1
 capercaillie$observer <- 1
 
-save(capercaillie, file="../Rdata/capercaillie.RData")
+save(capercaillie, file="../../data/capercaillie.RData")
 
 

@@ -1,0 +1,15 @@
+Package: dsdata
+Title: Distance sampling workshop data
+Version: 0.1
+Authors@R: 
+    person(given = "David",
+           family = "Miller",
+           role = c("aut", "cre"),
+           email = "dave@ninepointeightone.net")
+Description: Data used in distance sampling workshops.
+License: ???
+Encoding: UTF-8
+LazyData: true
+Imports:
+    readdst
+RoxygenNote: 6.1.1

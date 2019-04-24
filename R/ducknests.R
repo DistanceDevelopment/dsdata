@@ -12,4 +12,5 @@
 #' @references Anderson, D. R., and R. S. Pospahala. 1970. Correction of bias in belt transect studies of immotile objects. The Journal of Wildlife Management 34 (1): 141–146. https://doi.org/10.2307/3799501
 #' @source Simulated data, from the distance sampling introductory course, Centre for Research into Ecological & Environmental Modelling, University of St Andrews.
 #' @keywords datasets
+#' @aliases ducknests_units
 NULL

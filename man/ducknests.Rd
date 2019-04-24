@@ -3,6 +3,7 @@
 \docType{data}
 \name{ducknests}
 \alias{ducknests}
+\alias{ducknests_units}
 \title{Ducknest line transect survey data}
 \format{A data frame with ...
   \describe{

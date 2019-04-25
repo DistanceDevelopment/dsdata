@@ -12,7 +12,8 @@ project_paths <- c("../original/Ducknest_exercise/D702Ducknest exercise",
                    "../original/Wren2/D70Wren2",
                    "../original/Wren3/D70Wren3",
                    "../original/Wren4/D70Wren4",
-                   "../original/CueCountingExample/D70CueCountingExample")
+                   "../original/CueCountingExample/D70CueCountingExample",
+                   "../original/GolfteesExercise/D70GolfteesExercise")
 
 project_ids <- list(1,
                     "New Analysis",
@@ -20,7 +21,8 @@ project_ids <- list(1,
                     1,
                     1,
                     1,
-                    "Cue count Hazard rate No truncation")
+                    "Cue count Hazard rate No truncation",
+                    1)
 
 dataname <- c("ducknest",
               "Systematic_variance_2",
@@ -28,7 +30,8 @@ dataname <- c("ducknest",
               "wren2",
               "wren3",
               "wren4",
-              "CueCountingExample")
+              "CueCountingExample",
+              "golftees")
 
 
 

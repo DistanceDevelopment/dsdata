@@ -17,9 +17,9 @@ File                        | Data | Acknowledgement | Man page
 `Stratify exercise.zip`     |      |                 |          
 `Systematic_variance_1.zip` |      |                 |          
 `Systematic_variance_2.zip` |  ☑️   |                 |          
-`Wren1.zip`                 |      |                 |          
-`Wren2.zip`                 |      |                 |          
-`Wren3.zip`                 |  ☑️   |                 |          
-`Wren4.zip`                 |      |                 |          
+`Wren1.zip`                 |  ☑️   |        ☑️        |     ☑️ 
+`Wren2.zip`                 |  ☑️   |        ☑️        |     ☑️ 
+`Wren3.zip`                 |  ☑️   |        ☑️        |     ☑️ 
+`Wren4.zip`                 |  ☑️   |        ☑️        |     ☑️ 
 `capercaillie.txt`          |  ☑️   |                 |          
 `fTAMAUK07.zip`             |      |                 |          

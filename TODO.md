@@ -2,7 +2,7 @@
 
 File                        | Data | Acknowledgement | Man page
 ----------------------------|------|-----------------|----------
-`Cluster exercise.zip`      |      |                 |          
+`Cluster exercise.zip`      |   ☑️  |                 |          
 `CovarWhaleSim.zip`         |      |                 |          
 `CrabbieMCDSExercise.zip`   |      |                 |          
 `CueCountingExample.zip`    |  ☑️   |                 |          

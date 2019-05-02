@@ -13,7 +13,8 @@ project_paths <- c("../original/Ducknest_exercise/D702Ducknest exercise",
                    "../original/Wren3/D70Wren3",
                    "../original/Wren4/D70Wren4",
                    "../original/CueCountingExample/D70CueCountingExample",
-                   "../original/GolfteesExercise/D70GolfteesExercise")
+                   "../original/GolfteesExercise/D70GolfteesExercise",
+                   "../original/Cluster_exercise/D70Cluster\ exercise")
 
 project_ids <- list(1,
                     "New Analysis",
@@ -22,6 +23,7 @@ project_ids <- list(1,
                     1,
                     1,
                     "Cue count Hazard rate No truncation",
+                    1,
                     1)
 
 dataname <- c("ducknest",
@@ -31,7 +33,8 @@ dataname <- c("ducknest",
               "wren3",
               "wren4",
               "CueCountingExample",
-              "golftees")
+              "golftees",
+              "ClusterExercise")
 
 
 

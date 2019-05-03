@@ -1,10 +1,6 @@
 # make up most of the data
 library(readdst)
 
-# covered here:
-#  - ducknests
-
-
 # the paths to projects
 project_paths <- c("../original/Ducknest_exercise/D702Ducknest exercise",
                    "../original/Systematic_variance_2/D702Systematic_variance_2",
@@ -14,7 +10,8 @@ project_paths <- c("../original/Ducknest_exercise/D702Ducknest exercise",
                    "../original/Wren4/D70Wren4",
                    "../original/CueCountingExample/D70CueCountingExample",
                    "../original/GolfteesExercise/D70GolfteesExercise",
-                   "../original/Cluster_exercise/D70Cluster\ exercise")
+                   "../original/Cluster_exercise/D70Cluster\ exercise",
+                   "../original/Deer_pellets/D70new\ full\ sika")
 
 project_ids <- list(1,
                     "New Analysis",
@@ -23,6 +20,7 @@ project_ids <- list(1,
                     1,
                     1,
                     "Cue count Hazard rate No truncation",
+                    1,
                     1,
                     1)
 
@@ -34,7 +32,8 @@ dataname <- c("ducknest",
               "wren4",
               "CueCountingExample",
               "golftees",
-              "ClusterExercise")
+              "ClusterExercise",
+              "sikadeer")
 
 
 

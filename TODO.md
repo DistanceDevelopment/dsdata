@@ -6,7 +6,7 @@ File                        | Data | Acknowledgement | Man page
 `CovarWhaleSim.zip`         |      |                 |          
 `CrabbieMCDSExercise.zip`   |      |                 |          
 `CueCountingExample.zip`    |  ☑️   |                 |          
-`Deer pellets.zip`          |      |                 |          
+`Deer pellets.zip`          |  ☑️   |        ☑️        |          
 `Dolphin.zip`               |      |                 |          
 `Ducknest exercise.zip`     |  ☑️   |        ☑️        |     ☑️
 `Exercise3.zip`             |      |                 |          

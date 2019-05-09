@@ -34,7 +34,7 @@ Acknowledgements
     - Data set simulated by Rexstad in 2004 using WiSP
 - Dolphin
 - GolfteesExercise
-- CrabbieMCDSExercise
+- ~~~CrabbieMCDSExercise~~~  I don't think this is used in introductory workshop 
     - aerial survey data of crabeater seals.  Originally double observer data; these data have been collapsed into single observer data
 	- Borchers, D. L., J. L. Laake, C. Southwell, and C. G. M. Paxton. 2006. Accommodating unmodeled heterogeneity in double-observer distance sampling surveys. Biometrics 62 (2): 372–378. https://doi.org/10.1111/j.1541-0420.2005.00493.x.
 - fTAMAUK07

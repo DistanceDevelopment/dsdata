@@ -7,6 +7,10 @@ Acknowledgements
 - Exercise3
     - simulated line transect data (truth 79.8 per sq km)
 - capercaillie
+    - printed exercise states "Monaughty Forest"
+    - Google [says](https://www.woodlandtrust.org.uk/visiting-woods/wood/14525/monaughty-wood/) this woodland is 1472ha
+    - that equates to roughly 4km x 4km, but total line length is noted as 240km; 60 traverses of the woodland
+    - the woodland area could be added to the exercise such that an abundance can be computed
 - Systematic_variance_2
     - simulated data served as basis for paper:
 	- Fewster, R. M., J. L. Laake, and S. T. Buckland. 2005. Line transect sampling in small and large regions. Biometrics 61 (3): 856–859. https://doi.org/10.1111/j.1541-0420.2005.00413_1.x.

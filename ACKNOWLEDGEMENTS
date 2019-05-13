@@ -45,4 +45,9 @@ Acknowledgements
     - Sika deer pellet data from southern Scotland, described in
 	- Marques, F. F. C., S. T. Buckland, D. Goffin, C. E. Dixon, D. L. Borchers, B. A. Mayle, and A. J. Peace. 2001. Estimating deer abundance from line transect surveys of dung: sika deer in southern Scotland. Journal of Applied Ecology 38 (2): 349–363. https://doi.org/10.1046/j.1365-2664.2001.00584.x.
 - CueCountingExample
+    - nothing provided in "properties" field of Distance project to indicate origins of these data
+    - also no units on cue rate and (related) transect search time.  I speculate the values are in hours (sensible that minkes produce 25 blows per hour).
+    - there is elaborate numbering in the transect labelling, suggesting these may have been real data
+    - cue rate has but a single degree of freedom (single individual) and entire survey had but 40 detections
+    - pooled detection function across strata because of low sample size, yet stratum-specific estimates are produced (assumes same detectino function for all strata)
 

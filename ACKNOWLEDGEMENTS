@@ -33,7 +33,8 @@ Acknowledgements
 - CovarWhaleSim
     - Data set simulated by Rexstad in 2004 using WiSP
 - Dolphin
-- GolfteesExercise
+- GolfteesExercise (description from p12-13 of Borchers et al. (2002) Estimating animal abundance
+    - The data are from independent surveys by eight observers of a population of 250 groups (760 individuals) of golf tees.  The tees, of two colourse, were placed in groups of between 1 and 8 in a survey region of 1680 m^2^, either exposed above the surrounding grass, or at least partially hidden by it.  They were surveyed by the 1999 statistics honours class at the Univ of St Andrews... We treat each group of golf tees as a single animal with size equal to the number of tees in the group; yellow tees are male, green are female; teest exposed above the sourrounding grass are classified as exposed, others as unexposed.  We are grateful to Miguel Bernal for making these data available; they were collected by him as part of a masters project.
 - ~~~CrabbieMCDSExercise~~~  I don't think this is used in introductory workshop 
     - aerial survey data of crabeater seals.  Originally double observer data; these data have been collapsed into single observer data
 	- Borchers, D. L., J. L. Laake, C. Southwell, and C. G. M. Paxton. 2006. Accommodating unmodeled heterogeneity in double-observer distance sampling surveys. Biometrics 62 (2): 372–378. https://doi.org/10.1111/j.1541-0420.2005.00493.x.

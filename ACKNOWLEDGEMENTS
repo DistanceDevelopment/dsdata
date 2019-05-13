@@ -47,9 +47,10 @@ Acknowledgements
 	- Reading Marques et al. (2001), it appears data in this project represent data from Tweedsmuir rather than Peeblesshire
 	    - because there are 8 strata in the project, paper describes Tweedsmuir as having 9 strata, but stratum 9 is excluded in some instances
 	    - manuscript notes strata 1 and 2 are more intensively sampled than remainder; consistent with project data
-	    - Fig. 4 of manuscript may show detectino functions for project data
+	    - Fig. 4 of manuscript may show detection functions for project data
 	    - note however that manuscript analyses data by habitat types, which are lacking in project data
-    - density/abundance estimates by stratum bear no resemblance to estimates shown in manuscript for Tweedsmuir
+    - density/abundance estimates by stratum (analysis 3)bear no resemblance to estimates shown in manuscript for Tweedsmuir
+        - however weighted abundance estimate across strata (497) is close to reported value of 470; with CI bounds reasonably close
 - CueCountingExample
     - nothing provided in "properties" field of Distance project to indicate origins of these data
     - also no units on cue rate and (related) transect search time.  I speculate the values are in hours (sensible that minkes produce 25 blows per hour).

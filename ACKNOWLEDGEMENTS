@@ -44,6 +44,11 @@ Acknowledgements
 - Deer_pellets
     - Sika deer pellet data from southern Scotland, described in
 	- Marques, F. F. C., S. T. Buckland, D. Goffin, C. E. Dixon, D. L. Borchers, B. A. Mayle, and A. J. Peace. 2001. Estimating deer abundance from line transect surveys of dung: sika deer in southern Scotland. Journal of Applied Ecology 38 (2): 349–363. https://doi.org/10.1046/j.1365-2664.2001.00584.x.
+	- Reading Marques et al. (2001), it appears data in this project represent data from Tweedsmuir rather than Peeblesshire
+	    - because there are 8 strata in the project, paper describes Tweedsmuir as having 9 strata, but stratum 9 is excluded in some instances
+	    - manuscript notes strata 1 and 2 are more intensively sampled than remainder; consistent with project data
+	    - Fig. 4 of manuscript may show detectino functions for project data
+	    - note however that manuscript analyses data by habitat types, which are lacking in project data
 - CueCountingExample
     - nothing provided in "properties" field of Distance project to indicate origins of these data
     - also no units on cue rate and (related) transect search time.  I speculate the values are in hours (sensible that minkes produce 25 blows per hour).

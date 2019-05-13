@@ -49,6 +49,7 @@ Acknowledgements
 	    - manuscript notes strata 1 and 2 are more intensively sampled than remainder; consistent with project data
 	    - Fig. 4 of manuscript may show detectino functions for project data
 	    - note however that manuscript analyses data by habitat types, which are lacking in project data
+    - density/abundance estimates by stratum bear no resemblance to estimates shown in manuscript for Tweedsmuir
 - CueCountingExample
     - nothing provided in "properties" field of Distance project to indicate origins of these data
     - also no units on cue rate and (related) transect search time.  I speculate the values are in hours (sensible that minkes produce 25 blows per hour).

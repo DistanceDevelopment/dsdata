@@ -7,6 +7,7 @@ Acknowledgements
 - Exercise3
     - simulated line transect data (truth 79.8 per sq km)
 - capercaillie
+  - ask Steve
 - Systematic_variance_2
     - simulated data served as basis for paper:
 	- Fewster, R. M., J. L. Laake, and S. T. Buckland. 2005. Line transect sampling in small and large regions. Biometrics 61 (3): 856–859. https://doi.org/10.1111/j.1541-0420.2005.00413_1.x.
@@ -30,6 +31,7 @@ Acknowledgements
     - Data set simulated by Rexstad in 2004 using WiSP
 - Dolphin
 - GolfteesExercise
+  - David, Steve, Walter book
 - CrabbieMCDSExercise
     - aerial survey data of crabeater seals.  Originally double observer data; these data have been collapsed into single observer data
 	- Borchers, D. L., J. L. Laake, C. Southwell, and C. G. M. Paxton. 2006. Accommodating unmodeled heterogeneity in double-observer distance sampling surveys. Biometrics 62 (2): 372–378. https://doi.org/10.1111/j.1541-0420.2005.00493.x.
@@ -40,4 +42,4 @@ Acknowledgements
     - Sika deer pellet data from southern Scotland, described in
 	- Marques, F. F. C., S. T. Buckland, D. Goffin, C. E. Dixon, D. L. Borchers, B. A. Mayle, and A. J. Peace. 2001. Estimating deer abundance from line transect surveys of dung: sika deer in southern Scotland. Journal of Applied Ecology 38 (2): 349–363. https://doi.org/10.1046/j.1365-2664.2001.00584.x.
 - CueCountingExample
-
+  - ask Louise

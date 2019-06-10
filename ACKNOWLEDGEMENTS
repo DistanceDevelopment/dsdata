@@ -7,7 +7,10 @@ Acknowledgements
 - Exercise3
     - simulated line transect data (truth 79.8 per sq km)
 - capercaillie
-  - ask Steve
+    - printed exercise states "Monaughty Forest"
+    - Google [says](https://www.woodlandtrust.org.uk/visiting-woods/wood/14525/monaughty-wood/) this woodland is 1472ha
+    - that equates to roughly 4km x 4km, but total line length is noted as 240km; 60 traverses of the woodland
+    - the woodland area could be added to the exercise such that an abundance can be computed
 - Systematic_variance_2
     - simulated data served as basis for paper:
 	- Fewster, R. M., J. L. Laake, and S. T. Buckland. 2005. Line transect sampling in small and large regions. Biometrics 61 (3): 856–859. https://doi.org/10.1111/j.1541-0420.2005.00413_1.x.
@@ -30,9 +33,9 @@ Acknowledgements
 - CovarWhaleSim
     - Data set simulated by Rexstad in 2004 using WiSP
 - Dolphin
-- GolfteesExercise
-  - David, Steve, Walter book
-- CrabbieMCDSExercise
+- GolfteesExercise (description from p12-13 of Borchers et al. (2002) Estimating animal abundance
+    - The data are from independent surveys by eight observers of a population of 250 groups (760 individuals) of golf tees.  The tees, of two colourse, were placed in groups of between 1 and 8 in a survey region of 1680 m^2^, either exposed above the surrounding grass, or at least partially hidden by it.  They were surveyed by the 1999 statistics honours class at the Univ of St Andrews... We treat each group of golf tees as a single animal with size equal to the number of tees in the group; yellow tees are male, green are female; teest exposed above the sourrounding grass are classified as exposed, others as unexposed.  We are grateful to Miguel Bernal for making these data available; they were collected by him as part of a masters project.
+- ~~~CrabbieMCDSExercise~~~  I don't think this is used in introductory workshop 
     - aerial survey data of crabeater seals.  Originally double observer data; these data have been collapsed into single observer data
 	- Borchers, D. L., J. L. Laake, C. Southwell, and C. G. M. Paxton. 2006. Accommodating unmodeled heterogeneity in double-observer distance sampling surveys. Biometrics 62 (2): 372–378. https://doi.org/10.1111/j.1541-0420.2005.00493.x.
 - fTAMAUK07
@@ -41,5 +44,16 @@ Acknowledgements
 - Deer_pellets
     - Sika deer pellet data from southern Scotland, described in
 	- Marques, F. F. C., S. T. Buckland, D. Goffin, C. E. Dixon, D. L. Borchers, B. A. Mayle, and A. J. Peace. 2001. Estimating deer abundance from line transect surveys of dung: sika deer in southern Scotland. Journal of Applied Ecology 38 (2): 349–363. https://doi.org/10.1046/j.1365-2664.2001.00584.x.
+	- Reading Marques et al. (2001), it appears data in this project represent data from Tweedsmuir rather than Peeblesshire
+	    - because there are 8 strata in the project, paper describes Tweedsmuir as having 9 strata, but stratum 9 is excluded in some instances
+	    - manuscript notes strata 1 and 2 are more intensively sampled than remainder; consistent with project data
+	    - Fig. 4 of manuscript may show detection functions for project data
+	    - note however that manuscript analyses data by habitat types, which are lacking in project data
+    - density/abundance estimates by stratum (analysis 3)bear no resemblance to estimates shown in manuscript for Tweedsmuir
+        - however weighted abundance estimate across strata (497) is close to reported value of 470; with CI bounds reasonably close
 - CueCountingExample
-  - ask Louise
+    - nothing provided in "properties" field of Distance project to indicate origins of these data
+    - also no units on cue rate and (related) transect search time.  I speculate the values are in hours (sensible that minkes produce 25 blows per hour).
+    - there is elaborate numbering in the transect labelling, suggesting these may have been real data
+    - cue rate has but a single degree of freedom (single individual) and entire survey had but 40 detections
+    - pooled detection function across strata because of low sample size, yet stratum-specific estimates are produced (assumes same detectino function for all strata)

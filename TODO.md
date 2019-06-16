@@ -15,7 +15,7 @@ File                        | Data | Acknowledgement | Man page
 `Savannah sparrow 1980.zip` |      |                 |          
 `Savannah sparrow 1981.zip` |      |                 |          
 `Stratify exercise.zip`     |      |                 |          
-`Systematic_variance_1.zip` |      |                 |          
+`Systematic_variance_1.zip` |  ☑️   |                 |          
 `Systematic_variance_2.zip` |  ☑️   |                 |          
 `Wren1.zip`                 |  ☑️   |        ☑️        |     ☑️ 
 `Wren2.zip`                 |  ☑️   |        ☑️        |     ☑️ 

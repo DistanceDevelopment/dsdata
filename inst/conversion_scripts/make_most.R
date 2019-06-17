@@ -16,6 +16,7 @@ project_paths <- c("../original/Ducknest_exercise/D702Ducknest exercise",
                    "../original/CueCountingExample/D70CueCountingExample",
                    "../original/GolfteesExercise/D70GolfteesExercise",
                    "../original/Dolphin/D70Dolphin",
+                   "../original/adv_practical_1/adv_practical_1",
                    "../original/Cluster_exercise/D70Cluster\ exercise",
                    "../original/fTAMAUK07/D70fTAMAUK07",
                    "../original/Deer_pellets/D70new\ full\ sika")
@@ -36,6 +37,7 @@ project_ids <- list(1,
                     1,
                     1,
                     1,
+                    1,
                     1)
 
 dataname <- c("ducknest",
@@ -52,6 +54,7 @@ dataname <- c("ducknest",
               "CueCountingExample",
               "golftees",
               "ETP_Dolphin",
+              "unimak",
               "ClusterExercise",
               "amakihi",
               "sikadeer")

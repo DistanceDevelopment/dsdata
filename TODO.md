@@ -7,14 +7,14 @@ File                        | Data | Acknowledgement | Man page
 `CrabbieMCDSExercise.zip`   |      |                 |          
 `CueCountingExample.zip`    |  ☑️   |                 |          
 `Deer pellets.zip`          |  ☑️   |        ☑️        |          
-`Dolphin.zip`               |      |                 |          
+`Dolphin.zip`               |  ☑️   |                 |          
 `Ducknest exercise.zip`     |  ☑️   |        ☑️        |     ☑️
 `Exercise3.zip`             |      |                 |          
 `GolfteesExercise.zip`      |      |                 |          
 `PTExercise1.zip`           |  ☑️   |                 |          
 `Savannah sparrow 1980.zip` |  ☑️   |                 |          
 `Savannah sparrow 1981.zip` |  ☑️   |                 |          
-`Stratify exercise.zip`     |      |                 |          
+`Stratify exercise.zip`     |  ☑️   |                 |          
 `Systematic_variance_1.zip` |  ☑️   |                 |          
 `Systematic_variance_2.zip` |  ☑️   |                 |          
 `Wren1.zip`                 |  ☑️   |        ☑️        |     ☑️ 

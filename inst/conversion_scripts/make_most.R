@@ -17,6 +17,7 @@ project_paths <- c("../original/Ducknest_exercise/D702Ducknest exercise",
                    "../original/GolfteesExercise/D70GolfteesExercise",
                    "../original/Dolphin/D70Dolphin",
                    "../original/Cluster_exercise/D70Cluster\ exercise",
+                   "../original/fTAMAUK07/D70fTAMAUK07",
                    "../original/Deer_pellets/D70new\ full\ sika")
 
 project_ids <- list(1,
@@ -31,6 +32,7 @@ project_ids <- list(1,
                     1,
                     1,
                     "Cue count Hazard rate No truncation",
+                    1,
                     1,
                     1,
                     1,
@@ -51,6 +53,7 @@ dataname <- c("ducknest",
               "golftees",
               "ETP_Dolphin",
               "ClusterExercise",
+              "amakihi",
               "sikadeer")
 
 

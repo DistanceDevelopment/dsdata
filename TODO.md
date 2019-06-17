@@ -22,4 +22,4 @@ File                        | Data | Acknowledgement | Man page
 `Wren3.zip`                 |  ☑️   |        ☑️        |     ☑️ 
 `Wren4.zip`                 |  ☑️   |        ☑️        |     ☑️ 
 `capercaillie.txt`          |  ☑️   |                 |          
-`fTAMAUK07.zip`             |      |                 |          
+`fTAMAUK07.zip`             |  ☑️   |                 |          

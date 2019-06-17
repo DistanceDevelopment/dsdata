@@ -65,9 +65,15 @@ for(i in seq_along(project_ids)){
   # convert the project
   converted <- convert_project(project_paths[i])
 
-
   # grab the data
   dat <- attr(converted, "flatfile")
+
+  # get only the wrens from the wren data
+  if(grepl("^wren", dataname[i])){
+    dat <- dat[dat$species=="w", ]
+    dat$species <- NULL
+  }
+
   assign(dataname[i], dat)
 
   if(length(converted)>0){

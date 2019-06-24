@@ -12,6 +12,17 @@ capercaillie$size <- 1
 capercaillie$detected <- 1
 capercaillie$observer <- 1
 
-save(capercaillie, file="../../data/capercaillie.RData")
+# add in area and region name
+# ER notes the area of the forest is 1472 hectares from google.
+capercaillie$Region.Label <- "Monaughty Forest"
+capercaillie$Area <- 1472
+
+# add units
+capercaillie_units <- data.frame(Variable   =c("Area", "Effort", "distance"),
+                                 Units      =c("hectare", "kilometer", "meter"),
+                                 Conversion =c(10000, 1000, 1))
+
+
+save(capercaillie, capercaillie_units, file="../../data/capercaillie.RData")
 
 

@@ -65,8 +65,13 @@ dataname <- c("ducknest",
 
 
 for(i in seq_along(project_ids)){
-
   cat("Processing", dataname[i], "\n")
+
+  # column names that we care about the ordering of
+  most_col_order <- c("Study.Area", "Region.Label", "Area", "Sample.Label",
+                      "Effort", "object", "distance")
+  most_col_order_noeff <- c("Study.Area", "Region.Label", "Area",
+                            "Sample.Label", "object", "distance")
 
   # convert the project
   converted <- convert_project(project_paths[i])
@@ -80,6 +85,22 @@ for(i in seq_along(project_ids)){
     dat$species <- NULL
   }
 
+  # fiddly code to get column order right
+  if(any(grepl("rate", names(dat)))){
+    most_col_order <- c(most_col_order[1:3],
+                        names(dat)[grepl("rate", names(dat))],
+                        most_col_order[4:length(most_col_order)])
+    most_col_order_noeff <- c(most_col_order_noeff[1:3],
+                              names(dat)[grepl("rate", names(dat))],
+                              most_col_order_noeff[4:length(most_col_order_noeff)])
+  }
+  if("Effort" %in% names(dat)){
+    dat <- dat[, c(most_col_order, setdiff(names(dat), most_col_order))]
+  }else{
+    dat <- dat[, c(most_col_order_noeff, setdiff(names(dat), most_col_order_noeff))]
+  }
+
+  # name the dataset
   assign(dataname[i], dat)
 
   if(length(converted)>0){

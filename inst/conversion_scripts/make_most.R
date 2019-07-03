@@ -82,7 +82,9 @@ for(i in seq_along(project_ids)){
   # get only the wrens from the wren data
   if(grepl("^wren", dataname[i])){
     dat <- dat[dat$species=="w", ]
-    dat$species <- NULL
+    dat$species <- dat$vists <- dat$visit <- dat$visit.SE <- NULL
+    # remove visit labels
+    dat$Sample.Label <- sub("-\\d+", "", dat$Sample.Label)
   }
 
   # fiddly code to get column order right

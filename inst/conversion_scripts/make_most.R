@@ -68,9 +68,9 @@ for(i in seq_along(project_ids)){
   cat("Processing", dataname[i], "\n")
 
   # column names that we care about the ordering of
-  most_col_order <- c("Study.Area", "Region.Label", "Area", "Sample.Label",
+  most_col_order <- c("Region.Label", "Area", "Sample.Label",
                       "Effort", "object", "distance")
-  most_col_order_noeff <- c("Study.Area", "Region.Label", "Area",
+  most_col_order_noeff <- c("Region.Label", "Area",
                             "Sample.Label", "object", "distance")
 
   # convert the project
@@ -82,7 +82,8 @@ for(i in seq_along(project_ids)){
   # get only the wrens from the wren data
   if(grepl("^wren", dataname[i])){
     dat <- dat[dat$species=="w", ]
-    dat$species <- dat$vists <- dat$visit <- dat$visit.SE <- NULL
+    dat$species <- dat$vists <- dat$visit <- dat$visit.SE <-
+      dat$visits <- NULL
     # remove visit labels
     dat$Sample.Label <- sub("-\\d+", "", dat$Sample.Label)
     # multiply up the effort for the line transect
@@ -90,6 +91,14 @@ for(i in seq_along(project_ids)){
       dat$Effort <- dat$Effort*2
     }
   }
+
+  if(grepl("^sikadeer", dataname[i])){
+    dat$Sample.Label <- sub("Line ", "", dat$Sample.Label)
+    dat$Region.Label <- sub("Block ", "", dat$Region.Label)
+    dat$Sample.Label <- paste0(dat$Region.Label, "-",
+                                    dat$Sample.Label)
+  }
+
 
   # fiddly code to get column order right
   if(any(grepl("rate", names(dat)))){

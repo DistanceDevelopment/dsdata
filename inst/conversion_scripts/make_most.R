@@ -97,6 +97,7 @@ for(i in seq_along(project_ids)){
     dat$Region.Label <- sub("Block ", "", dat$Region.Label)
     dat$Sample.Label <- paste0(dat$Region.Label, "-",
                                     dat$Sample.Label)
+    dat <- as.data.frame(lapply(dat,function(x){ attr(x, "label") <- NULL;x}))
   }
 
 

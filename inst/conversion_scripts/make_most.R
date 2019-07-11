@@ -94,7 +94,7 @@ for(i in seq_along(project_ids)){
                          "Sample.Label", "Effort")]
     dat_noobs <- unique(dat_noobs)
     # join those
-    dat <- left_join(dat_noobs, datw, by="Sample.Label")
+    dat <- left_join(dat_noobs, datw)
     # remove species column
     dat$species <- NULL
   }

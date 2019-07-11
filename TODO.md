@@ -3,7 +3,7 @@
 File                        | Data | Acknowledgement | Man page
 ----------------------------|------|-----------------|----------
 `adv_practical_1.zip`       |  ☑️   |                 |          
-`Cluster exercise.zip`      |  ☑️   |        ☑️        |     ☑️ 
+`Cluster exercise.zip`      |  ☑️   |        ☑️        |     ☑️
 `CovarWhaleSim.zip`         |      |                 |          
 `CrabbieMCDSExercise.zip`   |      |                 |          
 `CueCountingExample.zip`    |  ☑️   |                 |          
@@ -22,5 +22,5 @@ File                        | Data | Acknowledgement | Man page
 `Wren2.zip`                 |  ☑️   |        ☑️        |     ☑️
 `Wren3.zip`                 |  ☑️   |        ☑️        |     ☑️
 `Wren4.zip`                 |  ☑️   |        ☑️        |     ☑️
-`capercaillie.txt`          |  ☑️   |        ☑️        |     ☑️
+`capercaillie.txt`          |  ☑️   |                 |     ☑️
 `fTAMAUK07.zip`             |  ☑️   |                 |          

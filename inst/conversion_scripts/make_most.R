@@ -78,14 +78,25 @@ for(i in seq_along(project_ids)){
 
   # grab the data
   dat <- attr(converted, "flatfile")
+  dat <- as.data.frame(lapply(dat,function(x){ attr(x, "label") <- NULL;x}))
 
   # get only the wrens from the wren data
   if(grepl("^wren", dataname[i])){
-    dat <- dat[dat$species=="w", ]
-    dat$species <- dat$vists <- dat$visit <- dat$visit.SE <-
-      dat$visits <- NULL
     # remove visit labels
     dat$Sample.Label <- sub("-\\d+", "", dat$Sample.Label)
+    dat$vists <- dat$visit <- dat$visit.SE <- dat$visits <- NULL
+
+    # fiddle to make sure we get only wrens but all the samples
+    # get only the wren data
+    datw <- dat[dat$species=="w", ]
+    # data without observation info
+    dat_noobs <- dat[, c("Area", "Study.Area", "Region.Label",
+                         "Sample.Label", "Effort")]
+    dat_noobs <- unique(dat_noobs)
+    # join those
+    dat <- left_join(dat_noobs, datw, by="Sample.Label")
+    # remove species column
+    dat$species <- NULL
   }
 
   if(grepl("^sikadeer", dataname[i])){
@@ -93,7 +104,6 @@ for(i in seq_along(project_ids)){
     dat$Region.Label <- sub("Block ", "", dat$Region.Label)
     dat$Sample.Label <- paste0(dat$Region.Label, "-",
                                     dat$Sample.Label)
-    dat <- as.data.frame(lapply(dat,function(x){ attr(x, "label") <- NULL;x}))
   }
 
 

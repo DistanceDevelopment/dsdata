@@ -86,10 +86,6 @@ for(i in seq_along(project_ids)){
       dat$visits <- NULL
     # remove visit labels
     dat$Sample.Label <- sub("-\\d+", "", dat$Sample.Label)
-    # multiply up the effort for the line transect
-    if(dataname[i]=="wren4"){
-      dat$Effort <- dat$Effort*2
-    }
   }
 
   if(grepl("^sikadeer", dataname[i])){

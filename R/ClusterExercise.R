@@ -11,7 +11,8 @@
 #' @keywords datasets
 #' @docType data
 #' @format \code{data.frame} with 99 observations of 9 variables:
-#' \tabular{ll}{\code{Region.Label} \tab stratum label (\code{"North"} or \code{"South"}) \cr
+#' \tabular{ll}{
+#' \code{Region.Label} \tab stratum label (\code{"North"} or \code{"South"}) \cr
 #' \code{Area} \tab stratum area  (square nautical mile)\cr
 #' \code{Sample.Label} \tab transect identifier\cr
 #' \code{Effort} \tab transect length  (nautical mile)\cr

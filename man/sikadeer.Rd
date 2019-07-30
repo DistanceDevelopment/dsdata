@@ -4,22 +4,34 @@
 \name{sikadeer}
 \alias{sikadeer}
 \alias{sikadeer_units}
-\title{Sika deer pellet data from southern Scotland, described in}
-\format{A data frame with ...
+\title{Sika deer pellet data from southern Scotland}
+\format{A data frame with 1923 rows and 11 variables.
   \describe{
-    \item{column1}{description}
-    \item{column2}{description}
+    \item{Region.Label}{stratum labels}
+    \item{Area}{size (ha) of each stratum}
+    \item{Sample.Label}{transect labels}
+    \item{Defecation.rate}{rate of dung production per individual per day}
+    \item{Defecation.rate.SE}{variability in defecation rate}
+    \item{Decay.rate}{time (days) for dung to become undetectable}
+    \item{Decay.rate.SE}{variability in decay rate}
+    \item{Effort}{transect length (km)}
+    \item{object}{object ID}
+    \item{distance}{perpendicular distance (cm)}
+    \item{Study.Area}{study area name}
   }}
-\source{
-Data provided courtesy of ...
-}
 \description{
-A brief 1 paragraph explanation of the data
+Because sika deer spend most of their time in woodland areas, abundance
+estimates are based on pellet group counts.  Line transect methods were applied
+to estimate deer pellet group density by geographic block.
 }
 \details{
-More details
+Data presented here are from the Peebleshire portion of the study described by 
+Marques et al. (2001).
 }
 \references{
-Marques, F. F. C., S. T. Buckland, D. Goffin, C. E. Dixon, D. L. Borchers, B. A. Mayle, and A. J. Peace. 2001. Estimating deer abundance from line transect surveys of dung: sika deer in southern Scotland. Journal of Applied Ecology 38 (2): 349–363. https://doi.org/10.1046/j.1365-2664.2001.00584.x
+Marques, F.F.C., S.T. Buckland, D. Goffin, C.E. Dixon, D.L. Borchers, B.A. Mayle, and A.J. Peace. (2001).
+ Estimating deer abundance from line transect surveys of dung: 
+ sika deer in southern Scotland. Journal of Applied Ecology 38 (2): 349–363.
+  https://doi.org/10.1046/j.1365-2664.2001.00584.x
 }
 \keyword{datasets}

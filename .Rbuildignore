@@ -1,1 +1,3 @@
 inst/original
+^.*\.Rproj$
+^\.Rproj\.user$

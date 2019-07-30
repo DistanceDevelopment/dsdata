@@ -1,31 +1,45 @@
 #' Golf tee data
 #'
-#' Double platform data collected in a line transect survey of golf tees by 2
-#' observers in St Andrews, Fife, Scotland.
-#'
-#' Field sex was actually colour of the golf tee: 0 -
-#' green; 1 - yellow. Exposure was either low (0) or high(1) depending on
-#' height of tee above the ground. size was the number of tees in an observed
-#' cluster.
+#' The data are from independent surveys by eight observers of a population of 250
+#' groups (760 individuals) of golf tees.  The tees, of two colours, were placed 
+#' in groups of between 1 and 8 in a survey region of 1680 m^2^, either exposed 
+#' above the surrounding grass, or at least partially hidden by it.  They were 
+#' surveyed by the 1999 statistics honours class at the Univ of St Andrews.
+#' 
+#' We treat each group of golf tees as a single animal with size equal to the 
+#' number of tees in the group; yellow tees are male, green are female; tees 
+#' exposed above the surrounding grass are classified as exposed, others as 
+#' unexposed.  We are grateful to Miguel Bernal for making these data available; 
+#' they were collected by him as part of a masters project.
 #'
 #' @name golftees
 #' @aliases golftees_units
 #' @docType data
-#' @format The format is: List of 4 $ book.tee.dataframe:'data.frame': 324 obs.
-#'   of 7 variables: ..$ object : num [1:324] 1 1 2 2 3 3 4 4 5 5 ...  ..$
-#'   observer: Factor w/ 2 levels "1","2": 1 2 1 2 1 2 1 2 1 2 ...  ..$
-#'   detected: num [1:324] 1 0 1 0 1 0 1 0 1 0 ...  ..$ distance: num [1:324]
-#'   2.68 2.68 3.33 3.33 0.34 0.34 2.53 2.53 1.46 1.46 ...  ..$ size : num
-#'   [1:324] 2 2 2 2 1 1 2 2 2 2 ...  ..$ sex : num [1:324] 1 1 1 1 0 0 1 1 1 1
-#'   ...  ..$ exposure: num [1:324] 1 1 0 0 0 0 1 1 0 0 ...  $ book.tee.region
-#'   :'data.frame': 2 obs. of 2 variables: ..$ Region.Label: Factor w/ 2 levels
-#'   "1","2": 1 2 ..$ Area : num [1:2] 1040 640 $ book.tee.samples
-#'   :'data.frame': 11 obs. of 3 variables: ..$ Sample.Label: num [1:11] 1 2 3
-#'   4 5 6 7 8 9 10 ...  ..$ Region.Label: Factor w/ 2 levels "1","2": 1 1 1 1
-#'   1 1 2 2 2 2 ...  ..$ Effort : num [1:11] 10 30 30 27 21 12 23 23 15 12 ...
-#'   $ book.tee.obs :'data.frame': 162 obs. of 3 variables: ..$ object : int
-#'   [1:162] 1 2 3 21 22 23 24 59 60 61 ...  ..$ Region.Label: int [1:162] 1 1
-#'   1 1 1 1 1 1 1 1 ...  ..$ Sample.Label: int [1:162] 1 1 1 1 1 1 1 1 1 1 ...
+#' @format The format is:
+#' \describe{ List of 4 
+#' $ book.tee.dataframe:'data.frame': 
+#'   \item{$ object}{object ID}
+#'   \item{$ observer}{observer ID}
+#'   \item{$ detected}{detected or not detected}
+#'   \item{$ distance}{perpendicular distance}
+#'   \item{$ size}{group size}
+#'   \item{$ sex}{number of tees in group}
+#'   \item{$ exposure}{tee height above ground}  
+#'   $ book.tee.region   :'data.frame': 2 obs. of 2 variables: ..
+#'   \item{$ Region.Label}{stratum name}
+#'   \item{$ Area}{stratum size}
+#'   $ book.tee.samples   :'data.frame': 11 obs. of 3 variables: ..
+#'   \item{$ Sample.Label}{transect label}
+#'   \item{$ Region.Label}{stratum name}
+#'   \item{$ Effort}{transect length}
+#'   $ book.tee.obs :'data.frame': 162 obs. of 3 variables:
+#'   \item{$ object}{object ID}
+#'   \item{$ Region.Label}{stratum in which it was detected}
+#'   \item{$ Sample.Label}{transect on which it was detected}
+#'   }
 #' @keywords datasets
-#' @references Buckland, S.T., D.R. Anderson, K.P. Burnham, J.L. Laake, D.L. Borchers, and L. Thomas. Advanced Distance Sampling: Estimating Abundance of Biological Populations. OUP Oxford, 2004.
+#' @references 
+#' Borchers, D. L., S.T. Buckland, and W. Zucchini. 2002. Estimating Animal Abundance: Closed Populations. Statistics for Biology and Health. London: Springer-Verlag. https://www.springer.com/gp/book/9781852335601.
+#' 
+#' Buckland, S.T., D.R. Anderson, K.P. Burnham, J.L. Laake, D.L. Borchers, and L. Thomas. Advanced Distance Sampling: Estimating Abundance of Biological Populations. OUP Oxford, 2004.
 NULL

@@ -6,18 +6,18 @@
 \alias{sikadeer_units}
 \title{Sika deer pellet data from southern Scotland}
 \format{A data frame with 1923 rows and 11 variables.
-  \describe{
-    \item{Region.Label}{stratum labels}
-    \item{Area}{size (ha) of each stratum}
-    \item{Sample.Label}{transect labels}
-    \item{Defecation.rate}{rate of dung production per individual per day}
-    \item{Defecation.rate.SE}{variability in defecation rate}
-    \item{Decay.rate}{time (days) for dung to become undetectable}
-    \item{Decay.rate.SE}{variability in decay rate}
-    \item{Effort}{transect length (km)}
-    \item{object}{object ID}
-    \item{distance}{perpendicular distance (cm)}
-    \item{Study.Area}{study area name}
+  \tabular{ll}{  
+    \code{Region.Label} \tab stratum labels \cr
+    \code{Area} \tab size (ha) of each stratum \cr
+    \code{Sample.Label} \tab transect labels \cr
+    \code{Defecation.rate} \tab rate of dung production per individual per day \cr
+    \code{Defecation.rate.SE} \tab variability in defecation rate \cr
+    \code{Decay.rate} \tab time (days) for dung to become undetectable \cr
+    \code{Decay.rate.SE} \tab variability in decay rate \cr
+    \code{Effort} \tab transect length (km) \cr
+    \code{object} \tab object ID \cr
+    \code{distance} \tab perpendicular distance (cm) \cr
+    \code{Study.Area} \tab study area name \cr
   }}
 \description{
 Because sika deer spend most of their time in woodland areas, abundance

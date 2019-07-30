@@ -22,7 +22,7 @@ Simulated data, from the distance sampling introductory course, Centre for
  Research into Ecological & Environmental Modelling, University of St Andrews.
 }
 \description{
-Simulated point transect survey. Only eight line transects, detection function is 
+Simulated line transect survey. Only eight line transects, detection function is 
 half-normal.
 }
 \note{

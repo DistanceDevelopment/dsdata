@@ -1,6 +1,6 @@
 #' Simulated line transect survey data with covariates
 #'
-#' Simulated point transect survey. Only eight line transects, detection function is 
+#' Simulated line transect survey. Only eight line transects, detection function is 
 #' half-normal. 
 #'
 #' @name unimak

@@ -4,6 +4,7 @@
 #' True object density is 79.8 animals per km^2.
 #'
 #' @name LTExercise
+#' @aliases LTExercise_units
 #' @docType data
 #' @format A data frame with 106 rows and 7 variables
 #'   \tabular{ll}{

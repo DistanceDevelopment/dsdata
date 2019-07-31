@@ -12,8 +12,8 @@
 #' encounter rate variance in distance sampling. Biometrics 65 (1): 225–236.
 #'  https://doi.org/10.1111/j.1541-0420.2008.01018.x.
 #'
-#' @name systematic_var_1
-#' @aliases  systematic_var_2 systematic_var_1_units systematic_var_2_units
+#' @name Systematic_variance_1
+#' @aliases Systematic_variance_2 Systematic_variance_1_units Systematic_variance_2_units
 #' @keywords datasets
 #' @docType data
 #' @format \code{data.frame} with 253 observations of 7 variables:

@@ -3,6 +3,7 @@
 \docType{data}
 \name{LTExercise}
 \alias{LTExercise}
+\alias{LTExercise_units}
 \title{Simulated line transect survey data}
 \format{A data frame with 106 rows and 7 variables
   \tabular{ll}{

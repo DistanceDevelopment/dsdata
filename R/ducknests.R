@@ -5,7 +5,7 @@
 #' The Monte Vista National Wildlife Refuge is in southern Colorado in the USA at an altitude
 #' of roughly 2400m.
 #'
-#' @name ducknests
+#' @name ducknest
 #' @aliases ducknest_units
 #' @docType data
 #' @format A data frame with 534 rows and 7 variables

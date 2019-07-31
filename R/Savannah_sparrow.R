@@ -11,8 +11,8 @@
 #' structure of a riparian avifauna relative to seasonal cattle grazing. 
 #' The Journal of Wildlife Management 52 (2): 280–290. https://doi.org/10.2307/3801235.
 #'
-#' @name Savanna_sparrow_1980
-#' @aliases  Savanna_sparrow_1981 Savanna_sparrow_1980_units Savanna_sparrow_1981_units
+#' @name Savannah_sparrow_1980
+#' @aliases Savannah_sparrow_1981 Savannah_sparrow_1980_units Savannah_sparrow_1981_units
 #' @keywords datasets
 #' @docType data
 #' @format \code{data.frame} with 468 observations of 7 variables:

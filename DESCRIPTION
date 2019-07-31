@@ -10,6 +10,4 @@ Description: Example data used in distance sampling workshops.
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
-Imports:
-    readdst
 RoxygenNote: 6.1.1

@@ -1,5 +1,6 @@
 # make up most of the data
 library(readdst)
+library(dplyr)
 
 # the paths to projects
 project_paths <- c("../original/Ducknest_exercise/D702Ducknest exercise",
@@ -82,16 +83,30 @@ for(i in seq_along(project_ids)){
 
   # get only the wrens from the wren data
   if(grepl("^wren", dataname[i])){
-    # remove visit labels
+    # remove visit part of Sample.Labels
     dat$Sample.Label <- sub("-\\d+", "", dat$Sample.Label)
-    dat$vists <- dat$visit <- dat$visit.SE <- dat$visits <- NULL
+
+    if("Effort" %in% names(dat)){
+      # multiply effort by number of visits
+      dat$Effort <- dat$Effort * dat$visits
+    }else if("Search.time" %in% names(dat)){
+      # multiply search time by number of visits
+      dat$Search.time <- dat$Search.time * dat$visits
+    }
+    # remove these extra columns
+    dat$vists <- dat$visit <- dat$visit.SE <- dat$visits.SE<- dat$visits <- NULL
 
     # fiddle to make sure we get only wrens but all the samples
     # get only the wren data
     datw <- dat[dat$species=="w", ]
     # data without observation info
-    dat_noobs <- dat[, c("Area", "Study.Area", "Region.Label",
-                         "Sample.Label", "Effort")]
+    if("Effort" %in% names(dat)){
+      dat_noobs <- dat[, c("Area", "Study.Area", "Region.Label",
+                           "Sample.Label", "Effort")]
+    }else if("Search.time" %in% names(dat)){
+      dat_noobs <- dat[, c("Area", "Study.Area", "Region.Label",
+                           "Sample.Label", "Search.time")]
+    }
     dat_noobs <- unique(dat_noobs)
     # join those
     dat <- left_join(dat_noobs, datw)

@@ -4,10 +4,10 @@
 #'
 #' Four different surveys were carried out:
 #' \describe{
-#'   \item{\code{wren1}}{5-minute point count}
-#'   \item{\code{wren2}}{snapshot method}
-#'   \item{\code{wren3}}{cue count}
-#'   \item{\code{wren4}}{line transect data}
+#'   \item{\code{wren_5min}}{5-minute point count}
+#'   \item{\code{wren_snapshot}}{snapshot method}
+#'   \item{\code{wren_cuecount}}{cue count}
+#'   \item{\code{wren_lt}}{line transect survey}
 #' }
 #'
 #' @name wren
@@ -15,8 +15,8 @@
 #' @references Buckland, S. T. (2006) Point-transect surveys for songbirds: robust methodologies. The Auk 123 (2): 345–357.
 #' @source Steve Buckland
 #' @keywords datasets
-#' @aliases wren1 wren2 wren3 wren4 wren1_units wren2_units wren3_units wren4_units
-#' @note wren1 is  data frame with 134 observations of 8 variables
+#' @aliases wren_5min wren_snapshot wren_cuecount wren_lt wren_5min_units wren_snapshot_units wren_cuecount_units wren_lt_units
+#' @note wren_5min is  data frame with 134 observations of 8 variables
 #'   \tabular{ll}{
 #'     \code{Region.Label} \tab stratum name (single stratum) \cr
 #'     \code{Area} \tab size (ha) of Montrave study area \cr
@@ -27,7 +27,7 @@
 #'     \code{direction} \tab direction of detection from point \cr
 #'     \code{Study.Area} \tab Montrave Estate \cr
 #'   }
-#' @note wren2 is  data frame with 119 observations of 7 variables
+#' @note wren_snapshot is  data frame with 119 observations of 7 variables
 #'   \tabular{ll}{
 #'     \code{Region.Label} \tab stratum name (single stratum) \cr
 #'     \code{Area} \tab size (ha) of Montrave study area \cr
@@ -37,7 +37,7 @@
 #'     \code{distance} \tab radial distance (m) \cr
 #'     \code{Study.Area} \tab Montrave Estate \cr
 #'   }
-#' @note wren3 is  data frame with 774 observations of 9 variables
+#' @note wren_cuecount is  data frame with 774 observations of 9 variables
 #'   \tabular{ll}{
 #'     \code{Region.Label} \tab stratum name (single stratum) \cr
 #'     \code{Area} \tab size (ha) of Montrave study area \cr
@@ -49,7 +49,7 @@
 #'     \code{Search.time} \tab Time (min) listening for cues \cr
 #'     \code{Study.Area} \tab Montrave Estate \cr
 #'   }
-#' @note wren4 is  data frame with 156 observations of 8 variables
+#' @note wren_lt is  data frame with 156 observations of 8 variables
 #'   \tabular{ll}{
 #'     \code{Region.Label} \tab stratum name (single stratum) \cr
 #'     \code{Area} \tab size (ha) of Montrave study area \cr
@@ -57,7 +57,6 @@
 #'     \code{Effort} \tab  transect length (km) \cr
 #'     \code{object} \tab Object ID \cr
 #'     \code{distance} \tab perpendicular distance (m) \cr
-#'     \code{visits.SE} \tab Ignore \cr
 #'     \code{Study.Area} \tab Montrave Estate \cr
 #'   }
 NULL

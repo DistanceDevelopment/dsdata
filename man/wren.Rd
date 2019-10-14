@@ -3,14 +3,14 @@
 \docType{data}
 \name{wren}
 \alias{wren}
-\alias{wren1}
-\alias{wren2}
-\alias{wren3}
-\alias{wren4}
-\alias{wren1_units}
-\alias{wren2_units}
-\alias{wren3_units}
-\alias{wren4_units}
+\alias{wren_5min}
+\alias{wren_snapshot}
+\alias{wren_cuecount}
+\alias{wren_lt}
+\alias{wren_5min_units}
+\alias{wren_snapshot_units}
+\alias{wren_cuecount_units}
+\alias{wren_lt_units}
 \title{Steve Buckland's winter wren surveys}
 \source{
 Steve Buckland
@@ -21,14 +21,14 @@ Observations of winter wren (Troglodytes troglodytes L.) collected by Steve Buck
 \details{
 Four different surveys were carried out:
 \describe{
-  \item{\code{wren1}}{5-minute point count}
-  \item{\code{wren2}}{snapshot method}
-  \item{\code{wren3}}{cue count}
-  \item{\code{wren4}}{line transect data}
+  \item{\code{wren_5min}}{5-minute point count}
+  \item{\code{wren_snapshot}}{snapshot method}
+  \item{\code{wren_cuecount}}{cue count}
+  \item{\code{wren_lt}}{line transect survey}
 }
 }
 \note{
-wren1 is  data frame with 134 observations of 8 variables
+wren_5min is  data frame with 134 observations of 8 variables
   \tabular{ll}{
     \code{Region.Label} \tab stratum name (single stratum) \cr
     \code{Area} \tab size (ha) of Montrave study area \cr
@@ -40,7 +40,7 @@ wren1 is  data frame with 134 observations of 8 variables
     \code{Study.Area} \tab Montrave Estate \cr
   }
 
-wren2 is  data frame with 119 observations of 7 variables
+wren_snapshot is  data frame with 119 observations of 7 variables
   \tabular{ll}{
     \code{Region.Label} \tab stratum name (single stratum) \cr
     \code{Area} \tab size (ha) of Montrave study area \cr
@@ -51,7 +51,7 @@ wren2 is  data frame with 119 observations of 7 variables
     \code{Study.Area} \tab Montrave Estate \cr
   }
 
-wren3 is  data frame with 774 observations of 9 variables
+wren_cuecount is  data frame with 774 observations of 9 variables
   \tabular{ll}{
     \code{Region.Label} \tab stratum name (single stratum) \cr
     \code{Area} \tab size (ha) of Montrave study area \cr
@@ -64,7 +64,7 @@ wren3 is  data frame with 774 observations of 9 variables
     \code{Study.Area} \tab Montrave Estate \cr
   }
 
-wren4 is  data frame with 156 observations of 8 variables
+wren_lt is  data frame with 156 observations of 8 variables
   \tabular{ll}{
     \code{Region.Label} \tab stratum name (single stratum) \cr
     \code{Area} \tab size (ha) of Montrave study area \cr
@@ -72,7 +72,6 @@ wren4 is  data frame with 156 observations of 8 variables
     \code{Effort} \tab  transect length (km) \cr
     \code{object} \tab Object ID \cr
     \code{distance} \tab perpendicular distance (m) \cr
-    \code{visits.SE} \tab Ignore \cr
     \code{Study.Area} \tab Montrave Estate \cr
   }
 }

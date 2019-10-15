@@ -1,6 +1,6 @@
 Package: dsdata
 Title: Distance sampling workshop data
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: 
     person(given = "David",
            family = "Miller",

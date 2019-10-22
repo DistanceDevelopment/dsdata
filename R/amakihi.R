@@ -13,9 +13,9 @@
 #'     \code{Effort} \tab number of visits to point \cr
 #'     \code{object} \tab object ID  \cr
 #'     \code{distance} \tab radial distance (m) \cr
-#'     \code{Month} \tab time since medication taken by observer (min) \cr
+#'     \code{Month} \tab month survey conducted (not used) \cr
 #'     \code{OBs} \tab observer ID (note capitalisation of variable name) \cr
-#'     \code{Sp} \tab species code \cr
+#'     \code{Sp} \tab species code (COAM) for all detections \cr
 #'     \code{MAS} \tab Time after sunrise (min) \cr
 #'     \code{HAS} \tab Time after sunrise (hours) \cr
 #'     \code{Study.Area} \tab name of study area \cr

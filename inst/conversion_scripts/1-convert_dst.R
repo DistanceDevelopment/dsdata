@@ -89,9 +89,6 @@ for(i in seq_along(project_ids)){
     if("Effort" %in% names(dat)){
       # multiply effort by number of visits
       dat$Effort <- dat$Effort * dat$visits
-    }else if("Search.time" %in% names(dat)){
-      # multiply search time by number of visits
-      dat$Search.time <- dat$Search.time * dat$visits
     }
     # remove these extra columns
     dat$vists <- dat$visit <- dat$visit.SE <- dat$visits.SE<- dat$visits <- NULL

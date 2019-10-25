@@ -1,6 +1,7 @@
 Distance sampling workshop data
 ===============================
 
+# This package is deprecated, all data are now in package [`Distance`](https://github.com/DistanceDevelopment/Distance)
 
 Datasets used in the distance sampling workshops at CREEM, University of St Andrews.
 

@@ -86,7 +86,7 @@ for(i in seq_along(project_ids)){
     # remove visit part of Sample.Labels
     dat$Sample.Label <- sub("-\\d+", "", dat$Sample.Label)
 
-    if("Effort" %in% names(dat)){
+    if(dataname[i] == "wren_lt"){
       # multiply effort by number of visits
       dat$Effort <- dat$Effort * dat$visits
     }

@@ -143,6 +143,10 @@ for(i in seq_along(project_ids)){
   }else{
     units <- attr(attr(converted, "flatfile"), "unit_conversion")
   }
+  if(dataname[i] == "wren_cuecount"){
+    units <- attr(attr(converted, "flatfile"), "unit_conversion")
+  }
+
   assign(paste0(dataname[i], "_units") , units)
 
   save(list=c(paste0(dataname[i], "_units"), dataname[i]),

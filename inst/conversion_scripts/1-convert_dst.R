@@ -149,6 +149,8 @@ for(i in seq_along(project_ids)){
 
   assign(paste0(dataname[i], "_units") , units)
 
+  # currently save as version 2, so R version < 3.5 allowed
   save(list=c(paste0(dataname[i], "_units"), dataname[i]),
-       file=paste0("../../data/", dataname[i], ".RData"))
+       file=paste0("../../data/", dataname[i], ".RData"),
+       version=2)
 }

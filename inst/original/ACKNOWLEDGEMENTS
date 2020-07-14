@@ -57,3 +57,6 @@ Acknowledgements
     - there is elaborate numbering in the transect labelling, suggesting these may have been real data
     - cue rate has but a single degree of freedom (single individual) and entire survey had but 40 detections
     - pooled detection function across strata because of low sample size, yet stratum-specific estimates are produced (assumes same detectino function for all strata)
+- DuikerCameraTraps
+  - Howe, E.J., Buckland, S.T., Després‐Einspenner, M.‐L. and Kühl, H.S. (2017), Distance sampling with camera traps. Methods Ecol Evol, 8: 1558-1565. doi:10.1111/2041-210X.12790
+  - Data available on Dryad https://doi.org/10.5061/dryad.b4c70

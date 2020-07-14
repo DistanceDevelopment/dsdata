@@ -5,7 +5,8 @@
 \alias{amakihi}
 \alias{amakihi_units}
 \title{Hawaiian amakihi point transect data}
-\format{A data frame with 1487 rows and 12 variables
+\format{
+A data frame with 1487 rows and 12 variables
   \tabular{ll}{
     \code{Region.Label} \tab strata names (seven strata) \cr
     \code{Area} \tab size of study area (set to 0) \cr
@@ -13,13 +14,14 @@
     \code{Effort} \tab number of visits to point \cr
     \code{object} \tab object ID  \cr
     \code{distance} \tab radial distance (m) \cr
-    \code{Month} \tab time since medication taken by observer (min) \cr
+    \code{Month} \tab month survey conducted (not used) \cr
     \code{OBs} \tab observer ID (note capitalisation of variable name) \cr
-    \code{Sp} \tab species code \cr
+    \code{Sp} \tab species code (COAM) for all detections \cr
     \code{MAS} \tab Time after sunrise (min) \cr
     \code{HAS} \tab Time after sunrise (hours) \cr
     \code{Study.Area} \tab name of study area \cr
-  }}
+  }
+}
 \description{
 Also known as the Common 'Amakihi, a type of Hawaiian honeycreeper
 }

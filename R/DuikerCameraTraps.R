@@ -1,6 +1,6 @@
 #' Duiker camera trap survey
 #'
-#' Study took place in Tai National Park Cote d'Ivoire in 2014.  Filmed Maxwell's duikers were assigned to distance intervals; recorded distances are the midpoints of the intervals. This data includes only observations recorded at times of peak activity.
+#' Study took place in Tai National Park Cote d'Ivoire in 2014.  Filmed Maxwell's duikers (Philantomba maxwellii) were assigned to distance intervals; recorded distances are the midpoints of the intervals. This data includes only observations recorded at times of peak activity.
 #'
 #' @name DuikerCameraTrap
 #' @aliases DuikerCameraTrap_units
